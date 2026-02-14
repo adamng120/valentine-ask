@@ -1,5 +1,5 @@
 console.log("Script loaded!");
-console.log("Envelope element:", envelope);
+
 // Elements
 const envelope = document.getElementById("envelope-container");
 const letter = document.getElementById("letter-container");
@@ -10,6 +10,8 @@ const title = document.getElementById("letter-title");
 const horimiyaImg = document.getElementById("letter-horimiya");
 const buttons = document.getElementById("letter-buttons");
 const finalText = document.getElementById("final-text");
+
+console.log("Envelope element:", envelope);
 
 // Click Envelope
 
